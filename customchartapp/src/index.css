@@ -1,0 +1,92 @@
+  body {
+    font-family: avenir next, sans-serif;
+    font-size: 12px;
+  }
+
+  .zoom {
+    cursor: move;
+    fill: transparent;
+    pointer-events: all;
+  }
+
+  text.letter{
+    fill:#000;
+    color:#000;
+    font-size:12px;
+  }
+
+  
+
+  rect {
+    /*fill-opacity: 0.4;*/
+  }
+
+  .axis {
+    stroke-width: 0.5px;
+    stroke: #888;
+    font: 10px avenir next, sans-serif;
+  }
+
+  .axis > path {
+    stroke: #888;
+  }
+
+  rect.letterbox{
+    fill:red;
+
+  }
+  rect.bar_{
+    fill:#fff;
+  }
+
+  g.message_drilled rect.letterbox {
+    fill:#000;
+  }
+
+  g.message_drilled text.letter {
+    fill:#fff;
+  }
+
+  rect.bar_drilled{
+    fill:#000;
+  }
+
+  rect.bar_init{
+    fill: #fffddb;
+  }
+
+  .message_ text{
+    fill:fff;
+  }
+
+
+   text.well{
+    text-align: center;
+    padding:10px 0px 0px 10px;
+    font-size: 11px;
+  }
+  rect.bar_ready{
+    fill:green;
+
+  }
+
+
+
+.area {
+  fill: none;
+  clip-path: url(#clip);
+}
+
+.zoom {
+  cursor: move;
+  fill: none;
+  pointer-events: all;
+}
+h3{
+	text-align:center;
+	font-size:22px;
+}
+
+.chartContainer{
+	width:960px;
+}
