@@ -170,7 +170,7 @@ class ChartApp extends React.Component {
 		  
 		  focus.select('line.crosshairx')
 			.attr('x1', 0)
-			.attr('x2', xdomain(14))
+			.attr('x2', xdomain(d3.max(data, function(d){return d.category })))
 			.attr('y1', ydomain(d.value))
 			.attr('y2', ydomain(d.value));
 
